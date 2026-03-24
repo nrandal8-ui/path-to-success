@@ -50,11 +50,18 @@ table {
 
 /* ROOT VARIABLES */
 :root {
+    --teal: #4ca7c0;
+    --purple: #484fb7;
+    --lavender: #6b8fe7;
+    --yellow: #e9bb57;
+    --pink: #d9526f;
+    --dark-gray: #1e1e1e;
+    --white: #ffffff;
     --primary-color: #F23131;
     --secondary-color: #F2F2F2;
     --accent-color: #000000;
-    --font-primary: 'Inter', sans-serif;
-    --font-secondary: 'Kavoon', cursive;
+    --body-font: "Inter", sans-serif;
+    --heading-font: "Kavoon", serif;
 }
 
 /* GLOBAL STYLES (mobile first/small) */
@@ -64,7 +71,7 @@ html {
 }
 
 body {
-    font-family: var(--font-primary);
+    font-family: var(--body-font);
     background-color: var(--secondary-color);
     color: var(--accent-color);
     line-height: 1.6;
@@ -82,4 +89,18 @@ header {
     color: var(--secondary-color);
     padding: 2rem 1rem;
     text-align: center;
+}
+
+header p {
+    margin-top: 0.75rem;
+}
+
+h1, h2 {
+    font-family: var(--font-secondary);
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1.1;
 }
