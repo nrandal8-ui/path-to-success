@@ -262,7 +262,7 @@ td {
     background-color: var(--pink);
     padding: 1rem;
     box-sizing: border-box;
-    width: auto;
+    width: 100%;
     border-radius: 0;
     
 }
@@ -272,6 +272,7 @@ td {
     color: var(--white);
     text-align: center;
     width: 100%;
+    font-size:x-large;
  }   
  
  #first-step p {
@@ -282,13 +283,29 @@ td {
     }
 
 #first-step a {
-    display:block;
+    text-decoration: none;
+    display: block;
     text-align: center;
     background-color: var(--white);
     margin-top: 1rem;
     border-style: double;
+    color: var(--dark-gray);
+    padding: 0.75rem;
+    font-weight: 700;
+    border-radius: 0.75rem;
+    box-shadow: #000000 0px 0px 0px, #000000 0px 0px 0px, #000000 0px 4px 4px, #000000 0px 4px 8px;;
 }
 
+footer {
+    justify-content: space-between;
+    display: flex;
+    padding: 1rem;
+    color: var(--white);
+    align-items: center;
+}
 
-
+footer a {
+    color: var(--white);
+   
+}
 
