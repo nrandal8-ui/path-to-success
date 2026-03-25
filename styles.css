@@ -98,6 +98,7 @@ header p {
 h1, h2 {
     font-family: var(--heading-font);
     margin-bottom: 0.75rem;
+    margin-top: 0;
 }
 
 h1 {
@@ -131,18 +132,30 @@ nav a {
 }
 
 main {
-    padding: 0.75rem;
     background-color: var(--purple);
+    padding: 0.75rem;
+}
+
+#services, #prices {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+
 }
 
 section {
-    margin: 0;
+    margin: 0.75rem 0;
+    
    }
+
+section p {
+    font-weight: 600;
+}   
 
 main > section > h2 {
     font-size: 2em;
     color: var(--white);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+    margin-top: -1rem;
     } 
 
 h3 {
@@ -151,6 +164,8 @@ h3 {
     font-family: var(--body-font);
     margin-bottom: 0.75rem;
     font-weight: 700;
+    padding: 0;
+    margin-top: 0.75rem;
 
 }
 
@@ -174,6 +189,10 @@ section img {
     margin-bottom: 1rem;
 }
 
+#services {
+    margin-top: 0;
+}
+
 #services img {
     width: 80px;
     margin-bottom: 1rem;
@@ -188,16 +207,16 @@ section img {
 
 #why-choose-us, #first-step {
     background-color: var(--pink);
-    padding: 1rem;
+    padding: 0.75rem;
+    border-radius: 0;
     margin-left: -0.75rem;
     margin-right: -0.75rem;
-    border-radius: 0;
-    width: auto;
     box-sizing: border-box;
-}
+   }
+
     #why-choose-us {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
    }
 
 #why-choose-us ul {
@@ -233,11 +252,17 @@ section img {
 }
 
 #prices {
-    padding: 1rem;
-    margin: 2rem -1rem 1rem -1rem;
+    padding: 1rem 0.75rem;
     box-sizing: border-box;
     width: auto;
     border-radius: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#prices section {
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 table {
@@ -249,23 +274,26 @@ table {
 
 th,td {
     text-align: center;
-    padding: 0.75rem;
+    padding: 0.5rem;
     font-weight: 700;
 }
 
 th {
     background-color: var(--yellow);
     font-weight: 700;
+    
 }
 
 td {
     background-color: var(--white);
     border: 2px solid var(--yellow)
+    
 }
 
 #first-step { 
-    margin-bottom: 0;
-    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    padding: 1rem 0.5rem;
 }
 
  #first-step h2 {
@@ -287,9 +315,10 @@ td {
     text-align: center;
     background-color: var(--white);
     margin-top: 1rem;
+    margin-left: 0;
     border-style: double;
     color: var(--dark-gray);
-    padding: 0.75rem;
+    padding: 1.25rem 1.75rem;
     font-weight: 700;
     border-radius: 0.75rem;
     box-shadow: #000000 0px 0px 0px, #000000 0px 0px 0px, #000000 0px 4px 4px, #000000 0px 4px 8px;;
@@ -298,13 +327,15 @@ td {
 footer {
     justify-content: space-between;
     display: flex;
-    padding: 1rem;
+    padding: 0.75rem;
     color: var(--white);
     align-items: center;
+    background-color: var(--purple);
 }
 
 footer a {
     color: var(--white);
+    
    
 }
 
