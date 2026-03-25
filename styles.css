@@ -74,7 +74,7 @@ body {
     background-color: var(--lavender);
     font-family: var(--body-font);
     color: var(--dark-gray);
-    line-height: 1.6;
+    line-height: 1.5;
     max-width: 450px;
     margin: 0 auto;
 }
@@ -87,7 +87,7 @@ img {
 header {
    background-color: var(--purple);
     color: var(--white);
-    padding: 2rem 1rem;
+    padding: 0.75rem;
     text-align: center;
 }
 
@@ -97,7 +97,7 @@ header p {
 
 h1, h2 {
     font-family: var(--heading-font);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
 }
 
 h1 {
@@ -107,7 +107,7 @@ h1 {
 
 nav {
     background-color: var(--yellow);
-    padding: 1rem;
+    padding: 0.75rem;
     text-align: center;
 }
 
@@ -131,12 +131,12 @@ nav a {
 }
 
 main {
-    padding: 1rem;
+    padding: 0.75rem;
     background-color: var(--purple);
 }
 
 section {
-    margin: 2rem 0;
+    margin: 0;
    }
 
 main > section > h2 {
@@ -169,7 +169,7 @@ section img {
 
 #services > section > section {
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 0.75rem;
     background-color: var(--white);
     margin-bottom: 1rem;
 }
@@ -183,16 +183,21 @@ section img {
 #services h4 {
     color: var(--purple);
     font-family: var(--body-font);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
-    #why-choose-us {
+#why-choose-us, #first-step {
     background-color: var(--pink);
     padding: 1rem;
-    margin: 2rem -1rem 1rem -1rem;
-    box-sizing: border-box;
-    width: auto;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
     border-radius: 0;
+    width: auto;
+    box-sizing: border-box;
+}
+    #why-choose-us {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
    }
 
 #why-choose-us ul {
@@ -259,19 +264,13 @@ td {
 }
 
 #first-step { 
-    background-color: var(--pink);
-    padding: 1rem;
-    box-sizing: border-box;
-    width: 100%;
-    border-radius: 0;
-    
+    margin-bottom: 0;
+    margin-top: 2rem;
 }
 
  #first-step h2 {
-    background-color: var(--pink);
     color: var(--white);
     text-align: center;
-    width: 100%;
     font-size:x-large;
  }   
  
