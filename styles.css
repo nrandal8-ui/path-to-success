@@ -139,7 +139,7 @@ section {
     margin: 2rem 0;
    }
 
-main section h2 {
+main > section > h2 {
     font-size: 2em;
     color: var(--white);
     margin-bottom: 1rem;
@@ -189,9 +189,9 @@ section img {
     #why-choose-us {
     background-color: var(--pink);
     padding: 1rem;
-    margin-bottom: 1rem;
+    margin: 2rem -1rem 1rem -1rem;
     box-sizing: border-box;
-    width: 100%;
+    width: auto;
     border-radius: 0;
    }
 
@@ -201,42 +201,92 @@ section img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    margin: 0;
+}
+
+#why-choose-us li {
+    padding: 1.25rem;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 0.75rem;
 }
 
 #why-choose-us li:nth-child(1) {
     background-color: var(--teal);
-    margin-bottom: 0.5rem;
-    padding: 1.25rem;
-    text-align: center;
-    font-weight: 700;
-    border-radius: 0.75rem;
 }
 
 #why-choose-us li:nth-child(2){
     background-color: var(--lavender);
-    margin-bottom: 0.5rem;
-    padding: 1.25rem;
-    text-align: center;
-    font-weight: 700;
-    border-radius: 0.75rem;
 }
 
 #why-choose-us li:nth-child(3){
     background-color: var(--yellow);
-    margin-bottom: 0.5rem;
-    padding: 1.25rem;
-    text-align: center;
-    font-weight: 700;
-    border-radius: 0.75rem;
 }
 
 #why-choose-us li:nth-child(4){
     background-color: var(--white);
-    margin-bottom: 0.5rem;
-    padding: 1.25rem;
+}
+
+#prices {
+    padding: 1rem;
+    margin: 2rem -1rem 1rem -1rem;
+    box-sizing: border-box;
+    width: auto;
+    border-radius: 0;
+}
+
+table {
+    width: auto;
+    margin: 0 auto;
+    background-color: var(--yellow);
+    
+}
+
+th,td {
     text-align: center;
+    padding: 0.75rem;
     font-weight: 700;
-    border-radius: 0.75rem;
+}
+
+th {
+    background-color: var(--yellow);
+    font-weight: 700;
+}
+
+td {
+    background-color: var(--white);
+    border: 2px solid var(--yellow)
+}
+
+#first-step { 
+    background-color: var(--pink);
+    padding: 1rem;
+    box-sizing: border-box;
+    width: auto;
+    border-radius: 0;
+    
+}
+
+ #first-step h2 {
+    background-color: var(--pink);
+    color: var(--white);
+    text-align: center;
+    width: 100%;
+ }   
+ 
+ #first-step p {
+    margin-top: 0.75rem;
+    text-align: left;
+    font-weight: 700;
+    color: var(--white);
+    }
+
+#first-step a {
+    display:block;
+    text-align: center;
+    background-color: var(--white);
+    margin-top: 1rem;
+    border-style: double;
 }
 
 
